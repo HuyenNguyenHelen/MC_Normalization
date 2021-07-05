@@ -9,8 +9,7 @@ import dateutil.parser
 import unicodedata
 import time
 
-bearer_token = "AAAAAAAAAAAAAAAAAAAAAPgJRAEAAAAAIc0NpzUA1KRaN%2FtSin7SfsZcYqM%3DSDbN6Dmb7NMxbxgkovOpYrmBUIYF8S2CganOgxgqrzztUrLaIy"  # os.environ.get("BEARER_TOKEN")
-
+bearer_token = "abc"
 
 def create_headers(bearer_token):
     headers = {"Authorization": "Bearer {}".format(bearer_token)}
